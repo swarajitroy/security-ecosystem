@@ -1,8 +1,8 @@
 # security-ecosystem
 ---
 
-* Certified Kubernetes Security Specialist (CKS)
-  ** Cluster Setup
+- Certified Kubernetes Security Specialist (CKS)
+  - Cluster Setup
   ** Cluster Hardening
   ** System Hardening
   ** Minimize Microservice Vulnerability 
