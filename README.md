@@ -2,6 +2,7 @@
 ---
 
 - Certified Kubernetes Security Specialist (CKS)
+  
   - Cluster Setup
   - Cluster Hardening
   - System Hardening
