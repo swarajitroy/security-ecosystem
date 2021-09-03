@@ -27,6 +27,13 @@ Following details needs to be provided to create the application - these informa
 
 ## Service Provider (SP)
 ---
+Following information is needed from the Identity Provider (iDP) at the Service Provider (SP) side to configure the communication flow.
+
+| ID | Details Name | Description|
+| -----------  | ----------- |---|
+| A | Identity Provider Single Sign-On URL | The SP may refer to this as the "SSO URL" or "SAML Endpoint." It's the only actual URL Okta provides when configuring a SAML application, so it's safe to say that any field on the Service Provider side that is expecting a URL will need this entered into it |
+| B | Identity Provider Issuer | This is often referred to as the Entity ID or simply "Issuer." The assertion will contain this information, and the SP will use it as verification. |
+| C |  x.509 Certificate | |
 
 
 
