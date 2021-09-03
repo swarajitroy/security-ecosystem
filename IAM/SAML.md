@@ -35,10 +35,22 @@ Following information is needed from the Identity Provider (iDP) at the Service 
 | B | Identity Provider Issuer | This is often referred to as the Entity ID or simply "Issuer." The assertion will contain this information, and the SP will use it as verification. |
 | C |  x.509 Certificate | |
 
+Then we have to include Spring Security SAML https://spring.io/projects/spring-security-saml via Maven dependencies. 
+
+```
+<dependency>
+    <groupId>org.springframework.security.extensions</groupId>
+    <artifactId>spring-security-saml2-core</artifactId>
+    <version>1.0.10.RELEASE</version>
+</dependency>
+
+```
+
 
 
 ## The Application 
 ---
+
 
 
 ## Resource Links
