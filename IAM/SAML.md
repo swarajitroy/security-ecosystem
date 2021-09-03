@@ -7,6 +7,7 @@
 | -----------  | ----------- |---|
 | 01 | SAML IDP (Identity Provider) | Okta|
 | 02 | SAML SP (Service Provider) | Spring Security SAML https://spring.io/projects/spring-security-saml|
+| 03 | The Application | Web MVC Application using Spring MVC and Thymeleaf |
 
 ## Identity Provider (iDP)
 ---
