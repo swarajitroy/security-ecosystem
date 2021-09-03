@@ -45,6 +45,16 @@ Then we have to include Spring Security SAML https://spring.io/projects/spring-s
 </dependency>
 
 ```
+Also, make sure to add the Shibboleth repository to download the latest opensaml jar required by the spring-security-saml2-core dependency:
+
+```
+<repository>
+    <id>Shibboleth</id>
+    <name>Shibboleth</name>
+    <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+</repository>
+
+```
 
 
 
