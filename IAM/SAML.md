@@ -66,6 +66,7 @@ Also, make sure to add the Shibboleth repository to download the latest opensaml
 ## The Application 
 ---
 
+The application is a Spring boot MVC application using Thymeleaf. On top of that - the application also bundles the Service Provider logic (Spring Security) into the final JAR file.
 
 
 ## Resource Links
