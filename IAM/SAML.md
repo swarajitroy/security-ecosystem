@@ -39,6 +39,11 @@ Then we have to include Spring Security SAML https://spring.io/projects/spring-s
 
 ```
 <dependency>
+   <groupId>org.springframework.boot</groupId>
+   <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+<dependency>
     <groupId>org.springframework.security.extensions</groupId>
     <artifactId>spring-security-saml2-core</artifactId>
     <version>1.0.10.RELEASE</version>
