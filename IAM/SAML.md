@@ -1,4 +1,4 @@
-# SAML 
+# Create a SAML Application 
 
 ## Introduction
 ---
@@ -14,6 +14,15 @@
 
 We will use Okta as our iDP and use Okta developer acccount. 
 
+## Service Provider (SP)
+---
+
+## The Application 
+---
+
+
+## Resource Links
+---
 
 - https://www.baeldung.com/spring-security-saml
 - https://developer.okta.com/docs/concepts/saml/#authentication
@@ -22,5 +31,6 @@ We will use Okta as our iDP and use Okta developer acccount.
 - https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 - https://en.wikipedia.org/wiki/SAML_metadata
 - https://docs.akana.com/cm/saml/08_glossary.htm
+- https://github.com/eugenp/tutorials/tree/master/spring-security-modules/spring-security-saml
 
-Create a SAML Application
+
