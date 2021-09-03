@@ -12,7 +12,12 @@
 ## Identity Provider (iDP)
 ---
 
-We will use Okta as our iDP and use Okta developer acccount. 
+We will use Okta as our iDP and use Okta developer acccount. We will create a SAML 2.0 application
+https://github.com/swarajitroy/security-ecosystem/blob/main/IAM/resources/OktaApplicationType.png
+
+Following 
+
+
 
 ## Service Provider (SP)
 ---
