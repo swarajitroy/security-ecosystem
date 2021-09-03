@@ -1,5 +1,13 @@
 # SAML 
 
+## Introduction
+---
+
+| Component ID | Component Name | Description|
+| -----------  | ----------- |---|
+| 01 | SAML IDP (Identity Provider) | Okta|
+| 02 | SAML SP (Service Provider) | Spring Security SAML https://spring.io/projects/spring-security-saml|
+
 ## Identity Provider (iDP)
 ---
 
