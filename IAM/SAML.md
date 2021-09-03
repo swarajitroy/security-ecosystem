@@ -15,12 +15,18 @@
 We will use Okta as our iDP and use Okta developer acccount. We will create a SAML 2.0 application
 ![Application Type](https://github.com/swarajitroy/security-ecosystem/blob/main/IAM/resources/OktaApplicationType.png)
 
-Following details needs to be created
+Following details needs to be provided
 
+| ID | Details Name | Description|
+| -----------  | ----------- |---|
+| A | Single Sign On URL or ACS (Assertion Consumer Service) | The application's specific URL that SAML assertions from Okta should be sent to (typically referred to as the ACS). In Okta, this is entered in the application's Single Sign On URL field |
+| B | SP Entity ID/Audience Restriction | which dictates the entity or audience the SAML Assertion is intended for. This field is frequently referred to as the "Entity ID" or "Audience URI" by vendors. It can technically be any string of data up to 1024 characters long but is usually in the form of a URL that contains the Service Provider's name within, and is often simply the same URL as the ACS |
 
 
 ## Service Provider (SP)
 ---
+
+
 
 ## The Application 
 ---
@@ -37,5 +43,7 @@ Following details needs to be created
 - https://en.wikipedia.org/wiki/SAML_metadata
 - https://docs.akana.com/cm/saml/08_glossary.htm
 - https://github.com/eugenp/tutorials/tree/master/spring-security-modules/spring-security-saml
+- https://support.okta.com/help/s/article/Common-SAML-Terms?language=en_US
+- https://support.okta.com/help/s/article/Beginner-s-Guide-to-SAML?language=en_US
 
 
