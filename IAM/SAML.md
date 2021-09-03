@@ -13,9 +13,9 @@
 ---
 
 We will use Okta as our iDP and use Okta developer acccount. We will create a SAML 2.0 application
-https://github.com/swarajitroy/security-ecosystem/blob/main/IAM/resources/OktaApplicationType.png
+![Application Type](https://github.com/swarajitroy/security-ecosystem/blob/main/IAM/resources/OktaApplicationType.png)
 
-Following 
+Following details needs to be created
 
 
 
