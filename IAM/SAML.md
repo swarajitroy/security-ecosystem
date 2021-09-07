@@ -160,6 +160,15 @@ public class HomeController {
 
 ```
 
+```
+index.html 
+
+<body>
+    <h3><Strong>Welcome to Baeldung Spring Security SAML</strong></h3>
+    <a th:href="@{/auth}">Login</a>
+</body>
+```
+
 ## Resource Links
 ---
 
@@ -174,5 +183,6 @@ public class HomeController {
 - https://support.okta.com/help/s/article/Common-SAML-Terms?language=en_US
 - https://support.okta.com/help/s/article/Beginner-s-Guide-to-SAML?language=en_US
 - https://help.sumologic.com/Manage/Security/SAML/01-Set-Up-SAML-for-Single-Sign-On
+- https://javarevisited.blogspot.com/2018/02/what-is-securitycontext-and-SecurityContextHolder-Spring-security.html#axzz75mHj6zQX
 
 
