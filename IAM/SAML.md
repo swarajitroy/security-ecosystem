@@ -84,7 +84,34 @@ The application is a Spring boot MVC application using Thymeleaf. On top of that
 
 ### Service Provider Keystore
 ---
+The service provider has to communicate with Identity Provider in an encrypted channel. 
 
+The Java Keytool is a command line tool which can generate public key / private key pairs and store them in a Java KeyStore. The Keytool executable is distributed with the Java SDK (or JRE), so if you have an SDK installed you will also have the Keytool executable. The Keytool executable is called keytool 
+
+
+```
+C:\pmi>keytool -genkeypair -alias swroyspringsaml -keypass swroysamlokta -keystore saml-keystore.jks
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  Swarajit Roy
+What is the name of your organizational unit?
+  [Unknown]:  Security
+What is the name of your organization?
+  [Unknown]: hello.org
+What is the name of your City or Locality?
+  [Unknown]:  Kolkata
+What is the name of your State or Province?
+  [Unknown]:  WB
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=Swarajit Roy, OU=Security, O=ulearnuhelp.org, L=Kolkata, ST=WB, C=IN correct?
+  [no]:  yes
+
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore saml-keystore.jks -destkeystore saml-keystore.jks -deststoretype pkcs12".
+```
 
 ## Resource Links
 ---
