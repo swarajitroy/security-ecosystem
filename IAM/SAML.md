@@ -184,5 +184,6 @@ index.html
 - https://support.okta.com/help/s/article/Beginner-s-Guide-to-SAML?language=en_US
 - https://help.sumologic.com/Manage/Security/SAML/01-Set-Up-SAML-for-Single-Sign-On
 - https://javarevisited.blogspot.com/2018/02/what-is-securitycontext-and-SecurityContextHolder-Spring-security.html#axzz75mHj6zQX
+- https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/
 
 
