@@ -90,22 +90,22 @@ The Java Keytool is a command line tool which can generate public key / private 
 
 
 ```
-C:\pmi>keytool -genkeypair -alias swroyspringsaml -keypass ******* -keystore saml-keystore.jks
+C:\pmi>keytool -genkeypair -alias swroyspringsaml -keypass **** -keystore saml-keystore.jks
 Enter keystore password:
 Re-enter new password:
 What is your first and last name?
   [Unknown]:  Swarajit Roy
 What is the name of your organizational unit?
-  [Unknown]:  Security
+  [Unknown]:  security
 What is the name of your organization?
-  [Unknown]: hello.org
+  [Unknown]:  abc.org
 What is the name of your City or Locality?
   [Unknown]:  Kolkata
 What is the name of your State or Province?
   [Unknown]:  WB
 What is the two-letter country code for this unit?
   [Unknown]:  IN
-Is CN=Swarajit Roy, OU=Security, O=ulearnuhelp.org, L=Kolkata, ST=WB, C=IN correct?
+Is CN=Swarajit Roy, OU=security, O=abc.org, L=Kolkata, ST=WB, C=IN correct?
   [no]:  yes
 
 
