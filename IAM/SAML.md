@@ -128,9 +128,37 @@ The Identity Provider XML is needed. This XML is also known as iDP Metadata and 
 
 | Component ID | Component Name | Description|
 | -----------  | ----------- |---|
-| 01 | SAML IDP (Identity Provider) | Okta|
-| 02 | SAML SP (Service Provider) | Spring Security SAML https://spring.io/projects/spring-security-saml|
-| 03 | The Application | Web MVC Application using Spring MVC and Thymeleaf |
+| 01 | The Spring MVC @Controllers | It uses SecurityContextHolder.getContext().getAuthentication() to ensure pages are protected|
+| 02 |  | |
+| 03 || |
+
+```
+@Controller
+public class HomeController {
+
+    @RequestMapping("/")
+    public String index() {
+        return "index";
+    }
+
+    @GetMapping(value = "/auth")
+    public String handleSamlAuth() {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth != null) {
+            return "redirect:/home";
+        } else {
+            return "/";
+        }
+    }
+
+    @RequestMapping("/home")
+    public String home(Model model) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        model.addAttribute("username", authentication.getPrincipal());
+        return "home";
+    }
+
+```
 
 ## Resource Links
 ---
