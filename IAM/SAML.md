@@ -90,7 +90,7 @@ The Java Keytool is a command line tool which can generate public key / private 
 
 
 ```
-C:\pmi>keytool -genkeypair -alias swroyspringsaml -keypass **** -keystore saml-keystore.jks
+C:\pmi>keytool -genkeypair -alias swroyspringsaml -keypass **** -keystore saml-keystore.jks -keyalg RSA -keysize 2048 -validity 10000
 Enter keystore password:
 Re-enter new password:
 What is your first and last name?
@@ -111,6 +111,7 @@ Is CN=Swarajit Roy, OU=security, O=abc.org, L=Kolkata, ST=WB, C=IN correct?
 
 Warning:
 The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore saml-keystore.jks -destkeystore saml-keystore.jks -deststoretype pkcs12".
+
 ```
 
 ### SSO XML
@@ -136,5 +137,6 @@ The Identity Provider XML is needed. This XML is also known as iDP Metadata and 
 - https://github.com/eugenp/tutorials/tree/master/spring-security-modules/spring-security-saml
 - https://support.okta.com/help/s/article/Common-SAML-Terms?language=en_US
 - https://support.okta.com/help/s/article/Beginner-s-Guide-to-SAML?language=en_US
+- https://help.sumologic.com/Manage/Security/SAML/01-Set-Up-SAML-for-Single-Sign-On
 
 
