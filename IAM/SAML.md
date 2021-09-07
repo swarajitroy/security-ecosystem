@@ -123,6 +123,14 @@ The Identity Provider XML is needed. This XML is also known as iDP Metadata and 
 - Identity Provider X509 Certificate 
 - Identity Provider SSO URL
 
+### Application Code Workthrough
+---
+
+| Component ID | Component Name | Description|
+| -----------  | ----------- |---|
+| 01 | SAML IDP (Identity Provider) | Okta|
+| 02 | SAML SP (Service Provider) | Spring Security SAML https://spring.io/projects/spring-security-saml|
+| 03 | The Application | Web MVC Application using Spring MVC and Thymeleaf |
 
 ## Resource Links
 ---
