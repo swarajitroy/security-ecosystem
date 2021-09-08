@@ -131,6 +131,7 @@ The Identity Provider XML is needed. This XML is also known as iDP Metadata and 
 | 01 | The Spring MVC @Controllers | It uses SecurityContextHolder.getContext().getAuthentication() to ensure pages are protected|
 | 02 | The Spring Security SAML Extenstions | Plays the role of a SP Initiated Login/Logout flows |
 | 03 | SAML Payload Exchanges with iDP | SAML Request and Response via SAML Tracer Firefox plugin|
+| 04 | Additional Assertion to make authorization decisions | |
 
 ```
 @Controller
