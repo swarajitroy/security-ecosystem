@@ -362,5 +362,6 @@ BYK4XelouzfudusPVbA8fagi74S83hziDA7pjw==</ds:X509Certificate>
 - https://help.sumologic.com/Manage/Security/SAML/01-Set-Up-SAML-for-Single-Sign-On
 - https://javarevisited.blogspot.com/2018/02/what-is-securitycontext-and-SecurityContextHolder-Spring-security.html#axzz75mHj6zQX
 - https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/
+- https://stackoverflow.com/questions/35893311/getting-list-of-groups-user-is-associated-with-in-okta/37018682#37018682
 
 
