@@ -363,5 +363,6 @@ BYK4XelouzfudusPVbA8fagi74S83hziDA7pjw==</ds:X509Certificate>
 - https://javarevisited.blogspot.com/2018/02/what-is-securitycontext-and-SecurityContextHolder-Spring-security.html#axzz75mHj6zQX
 - https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/
 - https://stackoverflow.com/questions/35893311/getting-list-of-groups-user-is-associated-with-in-okta/37018682#37018682
+- https://support.okta.com/help/s/article/How-to-define-and-configure-a-custom-SAML-attribute-statement?language=en_US
 
 
