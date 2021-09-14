@@ -27,3 +27,5 @@
 
 
 https://aws.amazon.com/blogs/mobile/understanding-amazon-cognito-user-pool-oauth-2-0-grants/
+https://dzone.com/articles/an-oauth2-grant-selection-decision-tree-for-securi
+https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
