@@ -24,3 +24,6 @@
 | 02 | Authorization Code Grant
 | 03 | Implicit Grant
 | 04 | Resource Owner Password Credential Grant |
+
+
+https://aws.amazon.com/blogs/mobile/understanding-amazon-cognito-user-pool-oauth-2-0-grants/
