@@ -30,3 +30,4 @@
 - https://dzone.com/articles/an-oauth2-grant-selection-decision-tree-for-securi
 - https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html
 - https://codeburst.io/authorization-code-flow-with-pkce-oauth-in-a-react-application-dcc4e06798df
+- https://aws.amazon.com/premiumsupport/knowledge-center/cognito-custom-scopes-api-gateway/
