@@ -21,7 +21,8 @@
 | Grant ID | Grant Name | Description|
 | -----------  | ----------- |---|
 | 01 | Client Credential Grant | |
-| 02 | Authorization Code Grant
+| 02 | Authorization Code Grant  | |
+| 02A | Authorization Code Grant with PKCE | |
 | 03 | Implicit Grant
 | 04 | Resource Owner Password Credential Grant |
 
