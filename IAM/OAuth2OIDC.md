@@ -5,7 +5,7 @@
 ## Introduction
 ---
 
-### OAuth2 components
+### OAuth2 Roles
 ---
 
 | Component ID | Component Name | Description|
@@ -14,6 +14,16 @@
 | 02 | Resource Owner | |
 | 03 | Authorization Server |  |
 | 04 | Resource Server | A Web Application or an API service which has to be protected, so that only authorized users can access it. It is an relying party from Authorization Server|
+
+### Confidential Vs Public Clients
+---
+
+### Client Profiles
+---
+
+### Tokens and Authorization Code
+---
+
 
 ### OAuth2 Grants
 ---
