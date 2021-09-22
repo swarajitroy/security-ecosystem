@@ -10,7 +10,7 @@
 
 | Component ID | Component Name | Description|
 | -----------  | ----------- |---|
-| 01 | The client| |
+| 01 | The client| The end consumer - may be an user with browser or an application itself (API client) |
 | 02 | Resource Owner | |
 | 03 | Authorization Server |  |
 | 04 | Resource Server | A Web Application or an API service which has to be protected, so that only authorized users can access it. It is an relying party from Authorization Server|
