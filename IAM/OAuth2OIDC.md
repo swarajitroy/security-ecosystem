@@ -13,7 +13,7 @@
 | 01 | The client| |
 | 02 | Resource Owner | |
 | 03 | Authorization Server |  |
-| 04 | Resource Server ||
+| 04 | Resource Server | A Web Application or an API service which has to be protected, so that only authorized users can access it. It is an relying party from Authorization Server|
 
 ### OAuth2 Grants
 ---
