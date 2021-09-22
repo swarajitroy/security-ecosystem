@@ -26,8 +26,8 @@
 | Token ID | Token Name | Description|
 | -----------  | ----------- |---|
 | 01 | Authorization Code | An intermediary, opaque code returned to an application and used to obtain an access token and optionally a refresh token. Each authorization code is used once. |
-| 02 | Access Token  | |
-| 03 | Refresh Token ||
+| 02 | Access Token  | A JWT Token, A token used by an application to access an API. It represents the application’s authorization to call an API and has an expiration|
+| 03 | Refresh Token | An optional token that can be used by an application to request a new access token when a prior access token has expired.|
 
 
 ### OAuth2 Grants
