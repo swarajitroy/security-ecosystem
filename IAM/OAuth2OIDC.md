@@ -23,6 +23,11 @@
 
 ### Tokens and Authorization Code
 ---
+| Token ID | Token Name | Description|
+| -----------  | ----------- |---|
+| 01 | Authorization Code | An intermediary, opaque code returned to an application and used to obtain an access token and optionally a refresh token. Each authorization code is used once. |
+| 02 | Access Token  | |
+| 03 | Refresh Token ||
 
 
 ### OAuth2 Grants
