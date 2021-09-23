@@ -12,8 +12,8 @@
 | -----------  | ----------- |---|
 | 01 | The client| The end consumer - may be an user with browser or an application itself (API client) |
 | 02 | Resource Owner | |
-| 03 | Authorization Server |  |
-| 04 | Resource Server | A Web Application or an API service which has to be protected, so that only authorized users can access it. It is an relying party from Authorization Server|
+| 03 | Authorization Server | Azure Active Directory, Okta |
+| 04 | Resource Server | A Web Application or an API service which has to be protected, so that only authorized users can access it. It is an relying party from Authorization Server. We can develop a SpringBoot application - to expose few API and secure it with Azure Active Directory|
 
 ### Confidential Vs Public Clients
 ---
@@ -48,3 +48,4 @@
 - https://codeburst.io/authorization-code-flow-with-pkce-oauth-in-a-react-application-dcc4e06798df
 - https://aws.amazon.com/premiumsupport/knowledge-center/cognito-custom-scopes-api-gateway/
 - https://developer.okta.com/blog/2021/05/05/client-credentials-spring-security
+- https://github.com/Azure-Samples/azure-spring-boot-samples/tree/main/aad/azure-spring-boot-starter-active-directory/aad-resource-server
